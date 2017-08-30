@@ -1,0 +1,13 @@
+name: visto
+version: 0.1.0
+
+authors:
+  - Michael Petö <michael@petoe.me>
+
+targets:
+  visto:
+    main: src/visto.cr
+
+crystal: 0.23.1
+
+license: MIT
