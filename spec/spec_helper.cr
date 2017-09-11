@@ -1,2 +1,7 @@
 require "spec"
-require "../src/visto"
+require "stumpy_png"
+require "../src/visto/*"
+
+module Visto
+    include StumpyPNG
+end
