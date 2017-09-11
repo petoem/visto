@@ -30,7 +30,7 @@ Usage: visto [FILE] [arguments]
 
 ## Example
 
-<img src="example.png" width="150">
+<img style="image-rendering: pixelated;" src="example.png" width="150">
 
 > The file [random.txt](spec/random.txt) as an image.
 
