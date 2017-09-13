@@ -12,6 +12,7 @@ visto (**Vis**ual **Sto**rage) allows you to store `Bytes` as an image.
 ```
 
 ## Usage
+### Command Line
 
 ```
 > visto --help
@@ -27,6 +28,21 @@ Usage: visto [FILE] [arguments]
 > # to get your file ...
 > visto image.png -d -o my.pdf
 ```
+### Library
+
+Add this to your application's `shard.yml`:
+
+```yaml
+dependencies:
+  visto:
+    github: petoem/visto
+```
+
+#### `Visto.encode(data : Bytes) : Canvas`
+Returns a [StumpyCore](https://github.com/stumpycr/stumpy_core)::Canvas that contains data.
+
+#### `Visto.decode(canvas : Canvas) : Bytes`
+Returns the extracted bytes from the canvas.
 
 ## Example
 
